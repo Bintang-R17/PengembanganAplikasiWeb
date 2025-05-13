@@ -1,0 +1,127 @@
+body {
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-image: url("banner.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  margin-top: auto;
+}
+#navbarNav {
+  background-color: #e64a19;
+  border-radius: 7px;
+}
+
+.container-fluid {
+  margin-bottom: 2rem;
+}
+
+#home,
+#menu,
+#login {
+  margin-left: 5%;
+}
+.card-wrapper {
+  padding: 10px;
+}
+.header .title {
+  text-align: center;
+}
+
+.header .title h1 {
+  padding-top: 4vw;
+  font-size: 6vw;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-custom {
+  min-width: 20x;
+}
+
+.card-body {
+  color: #333;
+}
+
+.card-title {
+  color: #000;
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.login-form,
+.register-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+@media (max-width: 460px) {
+  .sidebar {
+    padding: 10px;
+  }
+
+  .login-form,
+  .register-form {
+    padding: 15px;
+  }
+
+  .form-label,
+  .form-control,
+  .btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 990px) and (min-width: 461px) {
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 460px) {
+  .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}

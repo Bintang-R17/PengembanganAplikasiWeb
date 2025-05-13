@@ -1,0 +1,145 @@
+img {
+  width: 200px;
+  height: auto;
+}
+
+.form-registrasi {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+
+  padding: 10px;
+}
+
+.Jenis-kelamin {
+  padding-top: 35px;
+}
+
+select {
+  font-size: 8px;
+  height: fit-content;
+  margin-top: 10px;
+}
+
+#button {
+  text-align: center;
+  vertical-align: center;
+  font-size: 14px;
+  width: 100px;
+  height: fit-content;
+  margin-left: 100px;
+}
+.form-registrasi input[type="submit"] {
+  font-size: 14px;
+  padding: 0;
+  width: 90px;
+  height: 30px;
+}
+.form-registrasi input,
+.form-registrasi select,
+.form-registrasi textarea {
+  width: 60%;
+  height: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.form-registrasi input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.form-registrasi .radio-group {
+  display: flex;
+  align-items: center;
+}
+
+.form-registrasi .radio-group label {
+  margin-right: 15px;
+}
+
+textarea {
+  min-height: 25px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.form-registrasi input,
+label {
+  margin: 10px;
+}
+
+.Judul-form {
+  text-align: center;
+  background-color: aqua;
+  margin: 15px;
+  padding: 25%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+table {
+  width: auto;
+  height: auto;
+  border-collapse: collapse;
+  border: 1px solid #000000;
+}
+
+.content {
+  background-color: #c6f7df;
+}
+
+th,
+td {
+  border: none;
+  padding: 10px;
+}
+
+.bagian {
+  background-color: #f0e5cc;
+  padding: 10px;
+  text-align: center;
+  border: 1px black solid;
+}
+
+.form-title {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  padding: 10px;
+}
+
+div {
+  margin-top: 10px;
+  vertical-align: top;
+}
+
+.form-group.jurusan {
+  display: flex;
+  align-items: center;
+}
+
+.form-group.jurusan label {
+  flex: 0 0 200px;
+  text-align: right;
+  padding-right: 15px;
+  margin-bottom: 0;
+}
+
+.form-group.jurusan select {
+  flex: 0 0 250px;
+}
+
+#footer {
+  padding: 25px;
+}

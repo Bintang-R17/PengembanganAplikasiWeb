@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <td colspan="4" class="bagian" align="center">
+          <h1>Kelas PABW</h1>
+        </td>
+      </tr>
+      <tr>
+        <td class="sidebar" rowspan="3" valign="top">
+          <a href="#">Home</a> <br /><br />
+          <a href="#">Daftar Kelas</a> <br /><br />
+          <a href="#">Daftar Mahasiswa</a> <br /><br />
+          <a href="#">Ubah Akun</a>
+        </td>
+
+        <td colspan="3" class="content">
+          <h3>
+            <b>
+              Ini merupakan website resmi dari mata kuliah Pengembangan Aplikasi
+              Berbasis Web</b
+            >
+          </h3>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="content">
+          <p>
+            Syarat untuk dapat login ke sistem adalah registrasi dengan
+            melampirkan:
+          </p>
+          <ul>
+            <li>Scan KTM</li>
+            <li>Scan KTP</li>
+            <li>Pas Foto 4R</li>
+          </ul>
+        </td>
+        <td rowspan="2" class="content">
+          <img src="UII - Biru.png" alt="UII" />
+        </td>
+      </tr>
+
+      <tr>
+        <td class="content">
+          <label class="Judul-form"><b>Registrasi Data Diri</b></label>
+          <form class="form-registrasi">
+            <label for="Username">Username <span class="a">:</span></label>
+            <input type="text" id="Username" />
+            <label for="Password">Password :</label>
+            <input type="password" id="Password" />
+            <label for="Confirm_Password">Konfirmasi Password:</label>
+            <input type="password" id="Confirm_Password" />
+            <label class="Jenis-kelamin">Jenis Kelamin :</label>
+            <div>
+              <input
+                type="radio"
+                id="Gender_Male"
+                name="Gender"
+                value="Laki-laki"
+              />
+              <label for="Gender_Male">Laki-laki</label>
+              <br />
+              <input
+                type="radio"
+                id="Gender_Female"
+                name="Gender"
+                value="Perempuan"
+              />
+              <label for="Gender_Female">Perempuan</label>
+            </div>
+            <label for="Jurusan">Jurusan <span>:</span> </label>
+            <select id="Jurusan" name="Jurusan">
+              <option value="">Pilih Jurusan</option>
+              <option value="Teknik Kimia">Teknik Kimia</option>
+              <option value="Teknik Industri">Teknik Industri</option>
+              <option value="Informatika">Informatika</option>
+              <option value="Teknik Elektro">Teknik Elektro</option>
+              <option value="Teknik Mesin">Teknik Mesin</option>
+              <option value="Rekayasa Tekstil">Rekayasa Tekstil</option>
+            </select>
+            <label for="Fakultas">Fakultas:</label>
+            <select id="Fakultas" name="Fakultas" disabled>
+              <option value="FTI">FTI</option>
+            </select>
+            <label for="Deskripsi">Deskripsi Diri:</label>
+            <textarea id="Deskripsi" name="Deskripsi"></textarea>
+            <input
+              class="button"
+              id="button"
+              type="submit"
+              value="Registrasi"
+            />
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td class="bagian" colspan="4" align="center" id="footer">
+          <i>Copyright © 2023 PABW <br /><a href="#">pabw2023@uii</a></i>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

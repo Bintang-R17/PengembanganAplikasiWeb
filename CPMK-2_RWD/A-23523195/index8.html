@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasar Digital</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style8.css" />
+    <script src="script8.js"></script>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Header -->
+    <header class="text-white py-3" style="background-color: #000">
+      <div class="row justify-content-center">
+        <div class="col-md-12 text-center">
+          <h1 class="mb-0">Pasar Digital</h1>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Content -->
+    <main class="flex-grow-1">
+      <!-- Image + Menu-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="gambar(1).jpeg" class="img-fluid" alt="gambar" />
+            <div class="menu d-grid gap-2 mt-3">
+              <button
+                id="registrasi"
+                style="
+                  background-color: darkturquoise;
+                  color: white;
+                  border: none;
+                "
+              >
+                Registrasi
+              </button>
+              <button
+                id="login"
+                style="
+                  color: white;
+                  background-color: darkturquoise;
+                  border: none;
+                "
+              >
+                Login
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2><strong>Registrasi Akun</strong></h2>
+            <form id="registrationForm">
+              <div class="mb-6">
+                <label for="namaLengkap" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="namaLengkap" />
+              </div>
+              <div class="mb-3">
+                <label for="jenisKelamin" class="form-label"
+                  >Jenis Kelamin</label
+                >
+                <select class="form-select" id="jenisKelamin">
+                  <option value="" selected disabled>
+                    Pilih jenis kelamin
+                  </option>
+                  <option value="laki-laki">Laki-laki</option>
+                  <option value="perempuan">Perempuan</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="kataSandi" class="form-label">Email</label>
+                <input type="password" class="form-control" id="kataSandi" />
+              </div>
+              <div class="mb-3">
+                <label for="kataSandi" class="form-label">No Telepon</label>
+                <input type="text" class="form-control" id="noTelepon" />
+              </div>
+              <div class="mb-3">
+                <label for="tanggalLahir" class="form-label"
+                  >Tanggal Lahir</label
+                >
+                <input type="date" class="form-control" id="tanggalLahir" />
+              </div>
+              <div class="mb-3">
+                <button type="submit" class="btn btn-success w-100">
+                  Kirim
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Image Menu End -->
+    </main>
+
+    <!--Footer-->
+    <footer class="text-white text-center py-3 mt-auto">
+      <p class="mb-0">
+        Dikerjakan oleh Bintang Rizqi Anugrah/23523195/<a href="#">A</a>
+      </p>
+    </footer>
+    <!-- Footer End -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
