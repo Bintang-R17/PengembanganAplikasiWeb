@@ -1,0 +1,85 @@
+body {
+  background-color: #f0f2f5;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background: linear-gradient(45deg, #00ced1, #20b2aa);
+  color: white;
+  border-radius: 15px 15px 0 0 !important;
+  padding: 1.5rem;
+}
+
+.card-title {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.form-control,
+.form-select {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #00ced1;
+  box-shadow: 0 0 0 0.2rem rgba(0, 206, 209, 0.25);
+}
+
+.btn {
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #00ced1;
+  border-color: #00ced1;
+}
+
+.btn-primary:hover {
+  background-color: #20b2aa;
+  border-color: #20b2aa;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-success {
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.footer {
+  background: linear-gradient(45deg, #00ced1, #20b2aa);
+  margin-top: 3rem;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
